@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom print styles */
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .no-print {
+    display: none;
+  }
+}
